@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <!-- 본문을 설명하는 본문의 제목 -->
+  <title>WEB1 - html</title>
+  <!-- 본문의 저장방식: utf-8 -->
+  <meta charset="utf-8">
+</head>
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+  <ol>
+    <li><a href="1.html">html</a></li>
+    <li><a href="2.html">javascript</a></li>
+    <li><a href="3.html">css</a></li>
+  </ol>
+  <hr>
+
+  <!-- h1~h6: 글씨크기(강조)  -->
+  <h2>2022-07-21 THURSDAY</h2>
+  <h2>HTML Practice<h3>HTML이란 무엇인가:<h3></h2>
+  <!-- src나 width 같은 것을 ATTRIBUTE(속성)라고 하며 순서는 상관없다. -->
+  <img src="coding.jpg" width='450'>
+  <p>There are many kinds of html editors to make a websige.</p>
+
+  <!-- <hr>: 수평선 생성, 적는 개수만큼 줄이 생김.
+  <u></u>: 텍스트 밑줄.
+  <li></li>: 개괄식으로 나열.
+  <strong></strong>: 텍스트 강조(bold).
+  <p></p>: <br>와 비슷하며 Make paragraphs. -->
+
+  <hr> <hr> Examples: <li>atom</li> <li>text file</li> This is <strong>new <u>html</u> language </strong> practice via atom.
+  <p><a href="https://www.w3.org/TR/2011/WD-html5-20110405/" target = "_blank" title="html specification">HTML elements</a> are the building blocks of HTML pages.</p>
+  <p style="margin-top:40px;">With HTML constructs, images and other objects, such as interactive forms, may be embedded into the rendered page. It provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets.</p>
+  <hr>
+  <h2>번외1. css 맛보기</h2>
+  <!-- 1. <div></div>: division,레이아웃 나눌 때 사용+ 디스플레이 속성 block level, 줄바꿈 가능 -->
+  <div style="background-color:cyan"><p>Use CSS div tag. block level로 적용된다.</p></div><br>
+  <div style="width:150px; height:150px; background-color:blue">Use other style of div tag.  width와 height에 따라 줄바꿈과 글씨 높이가 달라진다. </div><br>
+
+  <!-- 2. <span></span>: div태그와 비슷, 그러나 디스플레이 속성 inline, 줄바꿈 불가 -->
+  <span style="background-color:red">Use CSS span tag. 글자만큼 적용된다</span><br>
+  <span style="font-size:100px">coding</span>
+  <hr>
+  <h2>**번외: 2. 표 만들기**</h2>
+    <!-- table tag
+    tr: table row, 테이블 내부의 행
+    th: table header, 헤더 cell-각 열의 이름 (기본스타일 style="text-align:center" , style="font-weight:bold")
+    td: table data, 일반적인 cell (기본 스타일 style="text-align:left") -->
+
+  <table border="3">
+    <!-- 첫 번째 행: 각 열의 이름 지정하기 -->
+    <tr>
+      <th>들어야하는 수업</th>
+      <th>들은 날</th>
+    </tr>
+    <!-- 두 번째 행: 각 수업이름과 들은 날 입력(즉, 첫 번째 데이터) -->
+    <tr>
+      <th>html and internet</th>
+      <th>2022-07-21</th>
+    </tr>
+    <tr>
+      <th>css</th>
+      <th>Not yet</th>
+    </tr>
+    <tr>
+      <th>javascript</th>
+      <th>Not yet</th>
+    </tr>
+  </table>
+</body>
+</html>
