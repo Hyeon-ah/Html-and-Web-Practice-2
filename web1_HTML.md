@@ -6,33 +6,32 @@
 ```
 
 # 1. HTML(Hypertext Markup Language)
-웹페이지를 만들기 위해서는
-	+ 기획을 해야 함
+웹페이지를 만들기 위해서는 **기획**이 필요
 
 # 2. 사람과 기계가 하는 일 분리
-```
-사람이 하는 일: Code, Source, Language
-기계가 하는 일: Application, App. Program, Webpage, Website
- 	관점에 따라 어휘가 달라지는 것
- 	webpage 만드는 언어가 HTML
- HTML 장점: 쉬움, 중요함
- PUBLIC DOMAIN: 저작권이 없음
-```
-
+- 사람이 하는 일: Code, Source, Language
+- 기계가 하는 일: Application, App. Program, Webpage, Website
+- 관점에 따라 어휘가 달라지는 것
+- webpage 만드는 언어가 HTML
+- HTML 장점
+	+ 쉬움
+	+ 중요함
+	+ PUBLIC DOMAIN(저작권이 없음)
+	+ 
 # 3. 태그 특징
- tag(태그)
- 	+ 닫히는 태그는 앞에 /를 붙임
- 	+ 중첩 사용가능
- 	ex) <strong>,<u>,</u>,</strong> 
- 	+ 모든 태그를 외울 수는 없음.
- 	+ 태그의 frequency를 보고 많이 사용되는 것들을 학습먼저 하자
- https://www.advancedwebranking.com/seo/html+study/
+## 3.1 tag(태그)
+- 닫히는 태그는 앞에 /를 붙임
+- 중첩 사용가능 
+	+ ex) <strong>,<u>,</u>,</strong> 
+- 모든 태그를 외울 수는 없음.
+- 태그의 frequency를 보고 많이 사용되는 것들을 학습먼저 하자 <br>
+	+ ex) https://www.advancedwebranking.com/seo/html+study/
 
 # 4. 태그 몇 가지 종류
-	+ <h1></h1>: heading(제목)
-	+ 줄바꿈 태그는 닫히지 않는 태그, 쓰는 만큼 줄바꿈 가능
- 		+ ex)img, input, br, hr, meta
- 	+ <p></p>: 단락표현
+- <h1></h1>: heading(제목)
+- 줄바꿈 태그는 닫히지 않는 태그, 쓰는 만큼 줄바꿈 가능
+	+ ex)img, input, br, hr, meta
+- <p></p>: 단락표현
 
  
  # 5. CSS 맛보기
@@ -59,9 +58,9 @@ or
     <a href="https://opentutorials.org">opentutorials</a>
 </p>
 ```
-위의 태그는 p 태그가 a 태그의 부모, a 태그가 p 태그의 자식이지만!
-필요에 따라 달라짐
-
+위의 태그는 p 태그가 a 태그의 부모, a 태그가 p 태그의 자식이지만! <br>
+필요에 따라 달라짐 <br>
+<br>
 그러나, 부모 자식 관계가 고정된 태그가 있음.
 ```
 	- list(목차)의 줄임표현 li은 반드시<ul></ul>나 <ol></ol>같은 tag가 필요함
@@ -71,34 +70,34 @@ or
 		- <ol></ol>: ordered list의 약자
 ```
 # 8. 문서의 구조
-	+ 많이 쓰이는 tag: `<head>`, `<body>`,`<html>`,`<title>`,`<meta>`
-	+ <title></title>: 문서의 제목 지정
+- 많이 쓰이는 tag: `<head>`, `<body>`,`<html>`,`<title>`,`<meta>`
+- <title></title>: 문서의 제목 지정
 - 약속
 	+ 본문을 설명하는 태그: head 태그
 	+ 본문: body 태그
 	+ head 태그와 body 태그를 감싸는 하나의 태그: html 태그
 	+ HTML로서 만들어졌다는 것을 표현하기 위해서 문서의 시작에 <!doctype html> 코드 추가
 
-# 9. HTML  태그의 여왕<br>
-anchor의 a: 링크!<br>
-	+ target="_blank"는 링크 클릭했을 때 새 창에서 페이지 열리기
-	+ a 태그 안의 title: 이 링크가 어떤 내용을 담고 있는지를
-툴팁으로 보여
+# 9. HTML  태그의 여왕
+- anchor의 a: 링크!
+	+ target=`_blank`는 링크 클릭했을 때 새 창에서 페이지 열리기
+	+ a 태그 안의 `title`: 이 링크가 어떤 내용을 담고 있는지를 보임
 
 # 10. Internet vs Web <br>
-<비유><br>
-도시(인터넷) & 도시의 위의 건물 하나(웹)<br>
-도로(인터넷) & 도로 위를 달리는 자동차 한 대(웹)<br>
-운영체제(인터넷) & 하나의 앱(웹)<br>
+- <비유><br>
+	+ 도시(인터넷) & 도시의 위의 건물 하나(웹)>
+	+ 도로(인터넷) & 도로 위를 달리는 자동차 한 대(웹)
+	+ 운영체제(인터넷) & 하나의 앱(웹)
 
 # 11. 서버와 클라이언트
-+ Web Browser(고객)가 Web Server(서버)에게 request, 서버는 브라우저에게 response.
-+ 요청컴퓨터: Client Conputer
-+ 응답하는 컴퓨터: Server Computer
-+ ex. Chatting Clinet - Chatting Server
-+ web hosting(=hosting, cloud -> 직접 웹서버 운영) / Web server이용
+- Web Browser(고객)가 Web Server(서버)에게 request, 서버는 브라우저에게 response.
+- 요청컴퓨터: Client Conputer
+- 응답하는 컴퓨터: Server Computer
+	+ ex. Chatting Clinet - Chatting Server
+- web hosting(=hosting, cloud -> 직접 웹서버 운영) / Web server이용
+```
+#쓰면-> div id 값 지정한 걸로 감
+.은 class
 
-#쓰면-> div id 값 지정한 걸로 감<br>
-.은 class<br>
-<br>
-grid --> col-sm-6(총 12를 반으로 나누어 사용하는 것!)<br>
+grid --> col-sm-6(총 12를 반으로 나누어 사용하는 것!)
+```
