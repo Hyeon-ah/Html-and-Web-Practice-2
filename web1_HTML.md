@@ -22,7 +22,7 @@
 ## 3.1 tag(태그)
 - 닫히는 태그는 앞에 /를 붙임
 - 중첩 사용가능 
-	+ ex) <strong>,<u>,</u>,</strong> 
+	+ ex) `<strong>`,`<u>`,`</u>`,`</strong>` 
 - 모든 태그를 외울 수는 없음.
 - 태그의 frequency를 보고 많이 사용되는 것들을 학습먼저 하자 <br>
 	+ ex) https://www.advancedwebranking.com/seo/html+study/
@@ -84,7 +84,7 @@ or
 	+ a 태그 안의 `title`: 이 링크가 어떤 내용을 담고 있는지를 보임
 
 # 10. Internet vs Web <br>
-- <비유><br>
+- <비유><
 	+ 도시(인터넷) & 도시의 위의 건물 하나(웹)>
 	+ 도로(인터넷) & 도로 위를 달리는 자동차 한 대(웹)
 	+ 운영체제(인터넷) & 하나의 앱(웹)
